@@ -1,0 +1,3 @@
+/home/jhamat/Documents/Github/RSXVT2027/Electrical/config/NUCLEO-H533RE/test1/Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_spi_ex.c:74:19:HAL_SPIEx_FlushRxFifo	32	static
+/home/jhamat/Documents/Github/RSXVT2027/Electrical/config/NUCLEO-H533RE/test1/Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_spi_ex.c:113:19:HAL_SPIEx_EnableLockConfiguration	24	static
+/home/jhamat/Documents/Github/RSXVT2027/Electrical/config/NUCLEO-H533RE/test1/Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_spi_ex.c:162:19:HAL_SPIEx_ConfigureUnderrun	32	static

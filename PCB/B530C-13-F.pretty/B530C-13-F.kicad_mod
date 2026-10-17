@@ -1,0 +1,94 @@
+(footprint "B530C-13-F"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "D"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "788754a5-a668-4bf2-a2c1-f0bf941268cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f617871a-bc5e-4b93-80b0-264e73f45a87")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.diodes.com/assets/Datasheets/B520C-B560C.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8dbefc3d-fed2-4b01-a04a-3369b9713f92")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "5.0A SURFACE-MOUNT SCHOTTKY BARRIER RECTIFIER DIODE"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "abcd853d-49e5-49f9-925a-ff8ac57e821d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -4.7 -1.65)
+		(end 4.7 1.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "abcb7692-0474-48e4-b85e-286566b8748e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1992c7a9-6ab5-4cfe-a4a2-24e99b2c78b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.45 0)
+		(size 2.5 3.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bee12821-ea93-4509-9655-8c2d16980c62")
+	)
+	(pad "2" smd rect
+		(at 3.45 0)
+		(size 2.5 3.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "27cec9b6-3969-46cb-9952-1058961aae88")
+	)
+	(embedded_fonts no)
+)
