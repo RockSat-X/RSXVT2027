@@ -1,0 +1,7 @@
+/home/jhamat/Documents/Github/RSXVT2027/Electrical/config/NUCLEO-H533RE/test1/Core/Src/stm32h5xx_hal_msp.c:62:6:HAL_MspInit	4	static
+/home/jhamat/Documents/Github/RSXVT2027/Electrical/config/NUCLEO-H533RE/test1/Core/Src/stm32h5xx_hal_msp.c:82:6:HAL_I2C_MspInit	256	static
+/home/jhamat/Documents/Github/RSXVT2027/Electrical/config/NUCLEO-H533RE/test1/Core/Src/stm32h5xx_hal_msp.c:129:6:HAL_I2C_MspDeInit	16	static
+/home/jhamat/Documents/Github/RSXVT2027/Electrical/config/NUCLEO-H533RE/test1/Core/Src/stm32h5xx_hal_msp.c:160:6:HAL_SPI_MspInit	264	static
+/home/jhamat/Documents/Github/RSXVT2027/Electrical/config/NUCLEO-H533RE/test1/Core/Src/stm32h5xx_hal_msp.c:217:6:HAL_SPI_MspDeInit	16	static
+/home/jhamat/Documents/Github/RSXVT2027/Electrical/config/NUCLEO-H533RE/test1/Core/Src/stm32h5xx_hal_msp.c:249:6:HAL_PCD_MspInit	232	static
+/home/jhamat/Documents/Github/RSXVT2027/Electrical/config/NUCLEO-H533RE/test1/Core/Src/stm32h5xx_hal_msp.c:285:6:HAL_PCD_MspDeInit	16	static
