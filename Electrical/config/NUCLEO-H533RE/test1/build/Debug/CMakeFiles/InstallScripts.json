@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/jhamat/Documents/Github/RSXVT2027/Electrical/config/NUCLEO-H533RE/test1/build/Debug/cmake_install.cmake",
-		"/home/jhamat/Documents/Github/RSXVT2027/Electrical/config/NUCLEO-H533RE/test1/build/Debug/cmake/stm32cubemx/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
