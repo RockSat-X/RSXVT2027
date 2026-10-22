@@ -1,0 +1,10 @@
+Hello!
+
+My name is Evan Goenner.
+
+I'm in my Senior year of my Computer Science degree!
+I've got some experience with robotics as well!
+
+I'm on the software team.
+
+Bye!
