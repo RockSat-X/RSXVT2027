@@ -1,0 +1,262 @@
+(footprint "BMI323"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "U"
+		(at 0 2.2832 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "10d38087-884c-4b36-be13-45df60bbeb40")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "BMI323"
+		(at 0 3.7832 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "45c80b96-b0fe-4c8b-a825-6ad675f9c369")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi323-ds000.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "335b5331-e813-477c-833c-0d329fb4a93f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "The BMI323 is a highly integrated, low power inertial measurement unit (IMU) that combines precise acceleration and angular rate (gyroscopic) measurement with intelligent on-chip motion-triggered interrupt features."
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7f0fe3d-e0b2-4565-968d-f785c4399dd5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center -1.27 -1.0668)
+		(end -1.17 -1.0668)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "7d6ca6ce-aed0-442c-8f95-9939b9fc1429")
+	)
+	(fp_line
+		(start -1.5 -1.25)
+		(end -1.5 1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.CrtYd")
+		(uuid "62a80712-e82e-42b9-9dbe-350e8b4ef639")
+	)
+	(fp_line
+		(start -1.5 1.25)
+		(end 1.5 1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.CrtYd")
+		(uuid "b6486958-35af-46b4-bc88-558b1bc5ae87")
+	)
+	(fp_line
+		(start 1.5 -1.25)
+		(end -1.5 -1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.CrtYd")
+		(uuid "e67ab74a-c79b-4738-bd57-3ee2529e1c7a")
+	)
+	(fp_line
+		(start 1.5 1.25)
+		(end 1.5 -1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.CrtYd")
+		(uuid "08855e82-3e00-488f-8513-c2af1840ea2e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 5.2832 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9f884a50-0723-4a96-85b3-455a8d4ac06d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.1625 -0.75 90)
+		(size 0.25 0.475)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "8ae3411d-4903-44ef-a5b5-cc7bad86a1d9")
+	)
+	(pad "2" smd roundrect
+		(at -1.1625 -0.25 90)
+		(size 0.25 0.475)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "f5efa271-8f0a-4e25-92d3-2cfe6f8e4cb4")
+	)
+	(pad "3" smd roundrect
+		(at -1.1625 0.25 90)
+		(size 0.25 0.475)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "5ed1231e-0597-4a66-a934-351bd5fa7cec")
+	)
+	(pad "4" smd roundrect
+		(at -1.1625 0.75 90)
+		(size 0.25 0.475)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "7103fe06-c258-45f7-b724-38e3e20a17f0")
+	)
+	(pad "5" smd roundrect
+		(at -0.492 0.9125)
+		(size 0.25 0.475)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "c0d86052-d108-4ec0-9238-034179e5bd38")
+	)
+	(pad "6" smd roundrect
+		(at 0.008 0.9125)
+		(size 0.25 0.475)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "b672ca24-08be-4d7c-8884-04f786388cdf")
+	)
+	(pad "7" smd roundrect
+		(at 0.508 0.9125)
+		(size 0.25 0.475)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "fe67b554-1d01-45a1-b7d7-b6c80b457a2a")
+	)
+	(pad "8" smd roundrect
+		(at 1.1625 0.75 90)
+		(size 0.25 0.475)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "dcf4220c-5a86-41a3-b650-39bd39733e23")
+	)
+	(pad "9" smd roundrect
+		(at 1.1625 0.25 90)
+		(size 0.25 0.475)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "900c28f7-c9bf-43e8-b2b7-5d5ee4ba29f2")
+	)
+	(pad "10" smd roundrect
+		(at 1.1625 -0.25 90)
+		(size 0.25 0.475)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "7f69ea29-8acb-4d39-abb6-7b89918c203d")
+	)
+	(pad "11" smd roundrect
+		(at 1.1625 -0.75 90)
+		(size 0.25 0.475)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "eb798c1c-cc41-465d-889f-98bb44c1dc48")
+	)
+	(pad "12" smd roundrect
+		(at 0.5 -0.9125)
+		(size 0.25 0.475)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "14ad440d-520c-4b97-a4e8-0434c5a61faf")
+	)
+	(pad "13" smd roundrect
+		(at 0 -0.9125)
+		(size 0.25 0.475)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "bbfa8577-ab3f-44bd-88f9-5d5138e79161")
+	)
+	(pad "14" smd roundrect
+		(at -0.5 -0.9125)
+		(size 0.25 0.475)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "697b3709-4579-409b-b0fb-468f33d83ec0")
+	)
+	(zone
+		(layer "B.CrtYd")
+		(uuid "f7a3b002-a8bf-4e88-a6b9-f4b2aad174c2")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -1.5 1.25) (xy 1.5 1.25) (xy 1.5 -1.25) (xy -1.5 -1.25)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../sharedLib/3D/BMI323_BOS.step"
+		(opacity 0.5800)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
