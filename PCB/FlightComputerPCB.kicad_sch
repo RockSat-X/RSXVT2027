@@ -5,4 +5,56 @@
 	(uuid "d1026bc5-5c3b-4f2e-9891-10bf72ad3989")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 114.3 63.5)
+		(size 33.02 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cd87a891-57f7-4b76-bc2d-3cc3b67a5709")
+		(property "Sheetname" "Flight Computer MCU"
+			(at 114.3 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FlightComputerMCU.kicad_sch"
+			(at 114.3 109.8046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FlightComputerPCB"
+				(path "/d1026bc5-5c3b-4f2e-9891-10bf72ad3989"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
