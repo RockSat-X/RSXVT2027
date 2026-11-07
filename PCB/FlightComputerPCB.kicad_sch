@@ -605,7 +605,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "CamOut1.TX"
+	(text "Cam1.TX"
 		(exclude_from_sim no)
 		(at 250.698 60.96 0)
 		(effects
@@ -615,7 +615,7 @@
 		)
 		(uuid "157e03fd-6031-485e-86c8-1720585165ed")
 	)
-	(text "CamOut2.RX"
+	(text "Cam2.RX"
 		(exclude_from_sim no)
 		(at 250.698 76.454 0)
 		(effects
@@ -625,7 +625,7 @@
 		)
 		(uuid "3eafa059-428b-4c9e-94b5-f88bbff48cf9")
 	)
-	(text "CamOut1.RX"
+	(text "Cam1.RX"
 		(exclude_from_sim no)
 		(at 250.698 63.754 0)
 		(effects
@@ -635,9 +635,9 @@
 		)
 		(uuid "58fb9fa4-92c3-4f24-9e8a-ce51b6279b0a")
 	)
-	(text "CommTransfer.RX"
+	(text "Comm.RX"
 		(exclude_from_sim no)
-		(at 67.564 75.184 0)
+		(at 63.5 75.184 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -645,9 +645,9 @@
 		)
 		(uuid "699b2805-ae62-4fa9-9187-394685f2095c")
 	)
-	(text "CommTransfer.TX"
+	(text "Comm.TX"
 		(exclude_from_sim no)
-		(at 67.564 72.644 0)
+		(at 63.5 72.644 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -665,7 +665,7 @@
 		)
 		(uuid "a78dfd81-251d-466f-a96e-0a88eac1fda7")
 	)
-	(text "CamOut2.TX"
+	(text "Cam2.TX"
 		(exclude_from_sim no)
 		(at 250.698 73.914 0)
 		(effects
@@ -899,7 +899,7 @@
 		)
 		(uuid "fc8a1bb9-b176-4619-9d08-d42008878ef5")
 	)
-	(label "CamOut1.RX"
+	(label "Cam1.RX"
 		(at 153.67 62.23 90)
 		(effects
 			(font
@@ -909,7 +909,7 @@
 		)
 		(uuid "0038fe4f-3155-4115-a449-0046be283c87")
 	)
-	(label "CamOut1.TX"
+	(label "Cam2.TX"
 		(at 157.48 67.31 90)
 		(effects
 			(font
@@ -919,7 +919,7 @@
 		)
 		(uuid "09732d74-a892-4406-95b0-8fb6d1ddee4b")
 	)
-	(label "CamOut1.TX"
+	(label "Cam1.TX"
 		(at 151.13 62.23 90)
 		(effects
 			(font
@@ -929,7 +929,7 @@
 		)
 		(uuid "2b0fba12-3d60-413a-a63c-96657178ab2c")
 	)
-	(label "CommTransfer.TX"
+	(label "Comm.TX"
 		(at 101.6 71.12 90)
 		(effects
 			(font
@@ -939,7 +939,7 @@
 		)
 		(uuid "2fd75d5b-954c-4a7f-8a1c-c860b685ba10")
 	)
-	(label "CamOut1.RX"
+	(label "Cam2.RX"
 		(at 160.02 67.31 90)
 		(effects
 			(font
@@ -949,7 +949,7 @@
 		)
 		(uuid "7e0659ba-5a26-4133-8fbc-599730b0ad62")
 	)
-	(label "CommTransfer.RX"
+	(label "Comm.RX"
 		(at 104.14 71.12 90)
 		(effects
 			(font
