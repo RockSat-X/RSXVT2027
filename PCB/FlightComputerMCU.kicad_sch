@@ -4541,7 +4541,6 @@
 		)
 		(pin "30"
 			(uuid "82b383e0-4a40-4a63-935b-b5082124ee73")
-			(alternate "SPI1_SCK")
 		)
 		(pin "78"
 			(uuid "855511bb-b139-418f-90cb-447a90a0e9d7")
@@ -4563,18 +4562,15 @@
 		)
 		(pin "25"
 			(uuid "885fc4e5-1a11-495f-a28f-440a5fabf486")
-			(alternate "TIM2_CH3")
 		)
 		(pin "24"
 			(uuid "af7f3cfd-fb99-4061-ba1b-d71281722527")
-			(alternate "TIM2_CH2")
 		)
 		(pin "50"
 			(uuid "863350c7-cd50-46e2-a376-ff14ddaf88dd")
 		)
 		(pin "23"
 			(uuid "ab6960aa-fb0d-4f69-82fc-759beaac2cac")
-			(alternate "TIM2_CH1")
 		)
 		(pin "51"
 			(uuid "f50687de-1039-4dd1-ba77-bf9821899f58")
@@ -4656,7 +4652,6 @@
 		)
 		(pin "31"
 			(uuid "c81b897a-5341-402e-a4ef-e80e3ab56c74")
-			(alternate "SPI1_MISO")
 		)
 		(pin "22"
 			(uuid "2e7db728-2411-459b-8e29-04c07d5fbe12")
@@ -4711,7 +4706,6 @@
 		)
 		(pin "32"
 			(uuid "cdbfa362-21fe-4699-b32e-0a24693b5dc3")
-			(alternate "SPI1_MOSI")
 		)
 		(pin "1"
 			(uuid "9b225e39-fc2e-44cd-a91d-9bffe737e143")
