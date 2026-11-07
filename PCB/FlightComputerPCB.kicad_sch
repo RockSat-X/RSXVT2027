@@ -741,7 +741,7 @@
 	)
 	(bus
 		(pts
-			(xy 147.32 81.28) (xy 177.8 81.28)
+			(xy 165.1 86.36) (xy 177.8 86.36)
 		)
 		(stroke
 			(width 0)
@@ -768,6 +768,16 @@
 			(type default)
 		)
 		(uuid "2284349b-0a7f-4d73-ba84-bb1f10598ed7")
+	)
+	(wire
+		(pts
+			(xy 171.45 77.47) (xy 171.45 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44a9f2cf-0721-40a5-a6e1-d6fc90baea70")
 	)
 	(wire
 		(pts
@@ -799,6 +809,16 @@
 		)
 		(uuid "5ef0f71e-ecd5-45c2-a08c-050183f1a725")
 	)
+	(bus
+		(pts
+			(xy 165.1 86.36) (xy 165.1 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63ff1744-522f-44c5-83e8-84a44e5766e4")
+	)
 	(wire
 		(pts
 			(xy 104.14 71.12) (xy 104.14 72.39)
@@ -818,6 +838,26 @@
 			(type default)
 		)
 		(uuid "6e19abad-a400-4442-9cb5-e9bee9faa1f2")
+	)
+	(wire
+		(pts
+			(xy 171.45 78.74) (xy 177.8 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "810c8870-206c-4bac-9b71-f664f369453c")
+	)
+	(bus
+		(pts
+			(xy 165.1 81.28) (xy 147.32 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81f4c32e-cb41-4acf-a457-71d70ed0c17b")
 	)
 	(wire
 		(pts
@@ -858,6 +898,26 @@
 			(type default)
 		)
 		(uuid "ab723fdf-46c6-4743-9965-439425b4b11b")
+	)
+	(wire
+		(pts
+			(xy 209.55 78.74) (xy 209.55 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4816dd4-e632-4f49-b6a7-67204cd1ebd3")
+	)
+	(wire
+		(pts
+			(xy 203.2 78.74) (xy 209.55 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b79ea8a4-5461-44ca-8c5e-93e236f9a187")
 	)
 	(wire
 		(pts
@@ -970,31 +1030,9 @@
 		)
 		(uuid "1cf692a6-894c-4b29-a810-78538eb8cd8a")
 	)
-	(hierarchical_label "GND"
-		(shape output)
-		(at 147.32 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "354eb5b3-3886-49ba-a6ad-280b6feda145")
-	)
-	(hierarchical_label "CamOut1{UART}"
-		(shape bidirectional)
-		(at 147.32 66.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3d8b6c77-800e-470d-bd34-e9ec4e6207e7")
-	)
 	(hierarchical_label "uSD{SDMMC}"
 		(shape input)
-		(at 177.8 81.28 0)
+		(at 177.8 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1003,38 +1041,27 @@
 		)
 		(uuid "57a20900-024e-46b8-b682-0e509234b898")
 	)
-	(hierarchical_label "3v3"
+	(hierarchical_label "GND"
 		(shape output)
-		(at 147.32 93.98 180)
+		(at 203.2 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "6b2f89e1-cfa5-48ff-bcb9-2e12de4906d3")
+		(uuid "7af28ee6-4e59-419b-a36a-fd470b5fdfcc")
 	)
-	(hierarchical_label "CommTransfer{UART}"
-		(shape input)
-		(at 114.3 74.93 0)
+	(hierarchical_label "3v3"
+		(shape output)
+		(at 177.8 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "79e628e1-5558-4dfa-8b97-285b00b3ee0e")
-	)
-	(hierarchical_label "uSD{SDMMC}"
-		(shape input)
-		(at 147.32 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "97fe1591-031d-4e2a-bf5f-da7d5fe494ac")
+		(uuid "8dfd79ba-7dca-4a6b-b473-e818df17b3fe")
 	)
 	(hierarchical_label "GND"
 		(shape output)
@@ -1046,28 +1073,6 @@
 			(justify left)
 		)
 		(uuid "a5e1a094-a96b-4beb-81fc-92e8f6eac9ac")
-	)
-	(hierarchical_label "USB{USB}"
-		(shape input)
-		(at 114.3 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "eefab90c-0a65-4a8e-b823-2819c8f72123")
-	)
-	(hierarchical_label "CamOut2{UART}"
-		(shape bidirectional)
-		(at 147.32 71.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f7711519-396b-49bf-b7b9-cefdb4a553b4")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1306,6 +1311,84 @@
 			(project "FlightComputerPCB"
 				(path "/d1026bc5-5c3b-4f2e-9891-10bf72ad3989"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 209.55 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74e75153-c972-4d63-a15d-3f89b742cdfc")
+		(property "Reference" "#PWR07"
+			(at 209.55 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 209.55 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 209.55 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d08dbe0e-05f2-413c-8bff-621e7aab0486")
+		)
+		(instances
+			(project "FlightComputerPCB"
+				(path "/d1026bc5-5c3b-4f2e-9891-10bf72ad3989"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -1711,6 +1794,84 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 171.45 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4c6f44e-0d82-4d95-a90d-2f9e6c45fb6d")
+		(property "Reference" "#PWR06"
+			(at 171.45 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 171.45 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 171.45 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c19f086d-af74-4498-99c6-54f0549681dc")
+		)
+		(instances
+			(project "FlightComputerPCB"
+				(path "/d1026bc5-5c3b-4f2e-9891-10bf72ad3989"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
 		(at 177.8 74.93)
 		(size 25.4 12.7)
@@ -1839,6 +2000,76 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "3v3" input
+			(at 147.32 93.98 0)
+			(uuid "63defa5f-ca5c-4c8e-9a2f-b9d1b2cef708")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Cam1{UART}" bidirectional
+			(at 147.32 66.04 0)
+			(uuid "16a5ef35-998c-4d43-8b86-832276e79973")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Cam2{UART}" bidirectional
+			(at 147.32 71.12 0)
+			(uuid "cf41b199-b161-4560-ba11-3d794234d39e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Comm{UART}" bidirectional
+			(at 114.3 74.93 180)
+			(uuid "18256567-4b94-4cc0-997c-49b3c16d5cf1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 147.32 99.06 0)
+			(uuid "c9b4e6af-d7db-4e68-92f9-682139b4eeeb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB{USB}" output
+			(at 114.3 101.6 180)
+			(uuid "eda5da96-403c-40b5-87c5-affcb8a393a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "uSD{SDMMC}" input
+			(at 147.32 81.28 0)
+			(uuid "83d62058-fd63-486a-b6dd-b51e390be9f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
