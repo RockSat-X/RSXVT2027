@@ -5330,6 +5330,16 @@
 		)
 		(uuid "14ca9059-861a-4fc4-9533-0c1cfb21a934")
 	)
+	(label "Cam2.RX"
+		(at 40.64 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "20a65a7b-90bf-42a5-acbb-2e4f807fc285")
+	)
 	(label "uSD.D0"
 		(at 76.2 163.83 0)
 		(effects
