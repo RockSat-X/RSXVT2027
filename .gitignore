@@ -1,1 +1,24 @@
+__pycache__/
+pyvenv/
+build/
+data/
+*.swp
+.~lock*
+*.pdb
+*.exe
+__META_MAIN__.py
 
+# KiCAD.
+*-backups/
+*.lck
+*.bak
+*.kicad_prl
+_autosave-*
+fp-info-cache
+\#auto_saved_files\#
+
+# SolidWorks.
+~$*
+
+# Misc.
+*.autosave
