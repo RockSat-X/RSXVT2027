@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "B530C-13-F") (type "KiCad") (uri "${KIPRJMOD}/B530C-13-F.pretty") (options "") (descr ""))
+	(lib (name "TPS25983") (type "KiCad") (uri "${KIPRJMOD}/TPS25983.pretty") (options "") (descr ""))
+)
