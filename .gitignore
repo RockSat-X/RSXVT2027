@@ -16,9 +16,12 @@ __META_MAIN__.py
 _autosave-*
 fp-info-cache
 \#auto_saved_files\#
+**/_restore_backup_*/
 
 # SolidWorks.
 ~$*
 
 # Misc.
 *.autosave
+*.history
+*.gitignore
