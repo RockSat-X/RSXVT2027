@@ -5,6 +5,161 @@
 	(uuid "4ce69d9b-99d5-46e6-83ef-ee031723c8a7")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -343,10 +498,34 @@
 		)
 	)
 	(junction
+		(at 121.92 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20e70f33-d169-4f52-bef8-479dbeaaeab1")
+	)
+	(junction
+		(at 121.92 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "291327aa-dbee-4deb-af9e-dff0b70c7119")
+	)
+	(junction
+		(at 121.92 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e808123-62fb-46fe-8c73-81873b91eb1d")
+	)
+	(junction
+		(at 100.33 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5af18699-3026-4508-906b-bc960d6d799a")
+	)
+	(junction
 		(at 109.22 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4c638645-148f-4a57-b7c0-640e448f7681")
+		(uuid "5b10983f-66c6-4cd4-abc9-7303498398da")
 	)
 	(junction
 		(at 109.22 55.88)
@@ -355,16 +534,16 @@
 		(uuid "67a05900-c350-415d-b8ef-1fdb2c702879")
 	)
 	(junction
-		(at 109.22 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6f8ee78d-a90e-4b59-9775-223cf6c3dd8e")
-	)
-	(junction
 		(at 97.79 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78448573-22f1-4526-9558-b065b2ed14e1")
+	)
+	(junction
+		(at 100.33 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "878fb48f-a28b-4e35-8846-316aac2bbc71")
 	)
 	(junction
 		(at 97.79 68.58)
@@ -373,16 +552,16 @@
 		(uuid "b3a2daee-1a2a-4532-a506-507af3c8b6a2")
 	)
 	(junction
-		(at 109.22 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7479c77-5755-4d92-bc43-b4b1bfcc7882")
-	)
-	(junction
 		(at 97.79 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c85ee6e9-7517-4baa-a7c3-5807735e5409")
+	)
+	(junction
+		(at 109.22 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de5f0e1a-cf2b-401e-964b-f85e39c4a40a")
 	)
 	(junction
 		(at 109.22 128.27)
@@ -391,10 +570,22 @@
 		(uuid "deabf622-9531-4435-9380-6bbe97352982")
 	)
 	(junction
+		(at 109.22 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5b2496e-a481-4ede-b576-a9a272b3d892")
+	)
+	(junction
 		(at 109.22 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fae124ae-b76c-4cbe-a8e3-5725004bd5c5")
+	)
+	(junction
+		(at 100.33 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffd2aa79-09d2-4614-bb57-cf88ae51cb1f")
 	)
 	(no_connect
 		(at 107.95 97.79)
@@ -420,6 +611,36 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 140.97) (xy 121.92 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e5af7c5-4043-4446-b221-a72d7727b43d")
+	)
+	(wire
+		(pts
+			(xy 100.33 105.41) (xy 109.22 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "119dc80e-b2ce-461a-a6ef-6edc52fac0e0")
+	)
+	(wire
+		(pts
+			(xy 121.92 68.58) (xy 121.92 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1660082a-2c2d-47dc-a0c9-d27eb47320e1")
+	)
+	(wire
+		(pts
 			(xy 109.22 82.55) (xy 97.79 82.55)
 		)
 		(stroke
@@ -437,6 +658,16 @@
 			(type default)
 		)
 		(uuid "2aeb0f23-3cf9-4e78-a16e-6af9bbe78419")
+	)
+	(wire
+		(pts
+			(xy 100.33 68.58) (xy 109.22 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c8e8ee3-40ef-40a9-8ec5-526688db21bf")
 	)
 	(wire
 		(pts
@@ -460,6 +691,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 140.97) (xy 109.22 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44258ca9-a4dc-463a-8631-38eef813060d")
+	)
+	(wire
+		(pts
 			(xy 97.79 45.72) (xy 97.79 48.26)
 		)
 		(stroke
@@ -480,7 +721,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 118.11) (xy 109.22 118.11)
+			(xy 125.73 118.11) (xy 109.22 118.11)
 		)
 		(stroke
 			(width 0)
@@ -507,6 +748,16 @@
 			(type default)
 		)
 		(uuid "673062ce-f649-4286-b1e0-f46f5bd4f68a")
+	)
+	(wire
+		(pts
+			(xy 116.84 68.58) (xy 121.92 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "701bb191-9a01-4087-89a7-f7558f9ff9c9")
 	)
 	(wire
 		(pts
@@ -570,7 +821,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 45.72) (xy 109.22 45.72)
+			(xy 125.73 45.72) (xy 109.22 45.72)
 		)
 		(stroke
 			(width 0)
@@ -630,6 +881,26 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 140.97) (xy 121.92 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb3b463f-c00a-4902-851f-55ea73684d8b")
+	)
+	(wire
+		(pts
+			(xy 116.84 105.41) (xy 121.92 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d22227da-cac2-4c32-8c32-db4566623f21")
+	)
+	(wire
+		(pts
 			(xy 109.22 45.72) (xy 97.79 45.72)
 		)
 		(stroke
@@ -660,7 +931,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 82.55) (xy 109.22 82.55)
+			(xy 125.73 82.55) (xy 109.22 82.55)
 		)
 		(stroke
 			(width 0)
@@ -700,6 +971,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 105.41) (xy 121.92 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fde6c6ed-35aa-41db-959c-fc13274e2b84")
+	)
+	(wire
+		(pts
 			(xy 97.79 113.03) (xy 100.33 113.03)
 		)
 		(stroke
@@ -710,7 +991,7 @@
 	)
 	(hierarchical_label "Vin"
 		(shape input)
-		(at 118.11 118.11 0)
+		(at 125.73 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -721,7 +1002,7 @@
 	)
 	(hierarchical_label "Vin"
 		(shape input)
-		(at 118.11 45.72 0)
+		(at 125.73 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -743,7 +1024,7 @@
 	)
 	(hierarchical_label "Vin"
 		(shape input)
-		(at 118.11 82.55 0)
+		(at 125.73 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -899,6 +1180,172 @@
 					(unit 1)
 				)
 			)
+			(project "VehiclePowerPCB"
+				(path "/dfc858cb-5f69-4281-acb2-fd40934e1f2d/446225b8-2733-4c61-b220-755fd225df2b/dd54b486-d1a7-4661-a7ba-c76c0a02d576"
+					(reference "U31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 113.03 105.41 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ac5a775-001c-49e9-862a-34208d4ec260")
+		(property "Reference" "C59"
+			(at 113.03 97.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10n"
+			(at 113.03 100.33 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 104.4448 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 113.03 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4957d182-4c7c-4208-b39c-1997b49520c9")
+		)
+		(pin "1"
+			(uuid "3db92815-19da-4ecf-acb9-2585dfe78a6f")
+		)
+		(instances
+			(project "VehiclePowerPCB"
+				(path "/dfc858cb-5f69-4281-acb2-fd40934e1f2d/446225b8-2733-4c61-b220-755fd225df2b/dd54b486-d1a7-4661-a7ba-c76c0a02d576"
+					(reference "C59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 113.03 68.58 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bdd58f3-7b65-42c8-91b3-22a0040ad24d")
+		(property "Reference" "C60"
+			(at 113.03 60.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10n"
+			(at 113.03 63.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 67.6148 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 113.03 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "29502f05-ad07-4b96-9b2d-ee0a7ff7c9b1")
+		)
+		(pin "1"
+			(uuid "1514e108-2e3a-4f3c-b02d-20f9de8ec6c6")
+		)
+		(instances
+			(project "VehiclePowerPCB"
+				(path "/dfc858cb-5f69-4281-acb2-fd40934e1f2d/446225b8-2733-4c61-b220-755fd225df2b/dd54b486-d1a7-4661-a7ba-c76c0a02d576"
+					(reference "C60")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -981,6 +1428,12 @@
 					(unit 1)
 				)
 			)
+			(project "VehiclePowerPCB"
+				(path "/dfc858cb-5f69-4281-acb2-fd40934e1f2d/446225b8-2733-4c61-b220-755fd225df2b/dd54b486-d1a7-4661-a7ba-c76c0a02d576"
+					(reference "R63")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1059,6 +1512,12 @@
 		(instances
 			(project "PCB Designs"
 				(path "/a63101c2-33fd-4fde-b0aa-80ff4ff71b25/b2f3ff71-3e5c-4ed9-a07e-905ce683306c/9c20296c-172a-4fb1-ae2d-54218a222870/446225b8-2733-4c61-b220-755fd225df2b/dd54b486-d1a7-4661-a7ba-c76c0a02d576"
+					(reference "R61")
+					(unit 1)
+				)
+			)
+			(project "VehiclePowerPCB"
+				(path "/dfc858cb-5f69-4281-acb2-fd40934e1f2d/446225b8-2733-4c61-b220-755fd225df2b/dd54b486-d1a7-4661-a7ba-c76c0a02d576"
 					(reference "R61")
 					(unit 1)
 				)
@@ -1157,6 +1616,92 @@
 					(unit 1)
 				)
 			)
+			(project "VehiclePowerPCB"
+				(path "/dfc858cb-5f69-4281-acb2-fd40934e1f2d/446225b8-2733-4c61-b220-755fd225df2b/dd54b486-d1a7-4661-a7ba-c76c0a02d576"
+					(reference "U32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 113.03 140.97 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c91b68a3-a69a-46fd-9a59-4a707ef66912")
+		(property "Reference" "C58"
+			(at 113.03 133.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10n"
+			(at 113.03 135.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 140.0048 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 113.03 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f0d1caaf-5107-4cd6-9616-792a8fc8ce0e")
+		)
+		(pin "1"
+			(uuid "17ff5cee-c835-4df5-82f9-83e97db698a3")
+		)
+		(instances
+			(project "VehiclePowerPCB"
+				(path "/dfc858cb-5f69-4281-acb2-fd40934e1f2d/446225b8-2733-4c61-b220-755fd225df2b/dd54b486-d1a7-4661-a7ba-c76c0a02d576"
+					(reference "C58")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1235,6 +1780,12 @@
 		(instances
 			(project "PCB Designs"
 				(path "/a63101c2-33fd-4fde-b0aa-80ff4ff71b25/b2f3ff71-3e5c-4ed9-a07e-905ce683306c/9c20296c-172a-4fb1-ae2d-54218a222870/446225b8-2733-4c61-b220-755fd225df2b/dd54b486-d1a7-4661-a7ba-c76c0a02d576"
+					(reference "R62")
+					(unit 1)
+				)
+			)
+			(project "VehiclePowerPCB"
+				(path "/dfc858cb-5f69-4281-acb2-fd40934e1f2d/446225b8-2733-4c61-b220-755fd225df2b/dd54b486-d1a7-4661-a7ba-c76c0a02d576"
 					(reference "R62")
 					(unit 1)
 				)
@@ -1329,6 +1880,12 @@
 		(instances
 			(project "PCB Designs"
 				(path "/a63101c2-33fd-4fde-b0aa-80ff4ff71b25/b2f3ff71-3e5c-4ed9-a07e-905ce683306c/9c20296c-172a-4fb1-ae2d-54218a222870/446225b8-2733-4c61-b220-755fd225df2b/dd54b486-d1a7-4661-a7ba-c76c0a02d576"
+					(reference "U30")
+					(unit 1)
+				)
+			)
+			(project "VehiclePowerPCB"
+				(path "/dfc858cb-5f69-4281-acb2-fd40934e1f2d/446225b8-2733-4c61-b220-755fd225df2b/dd54b486-d1a7-4661-a7ba-c76c0a02d576"
 					(reference "U30")
 					(unit 1)
 				)
