@@ -422,6 +422,400 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Q_PMOS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q2"
+				(at 6.35 1.2701 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "IAUCP04P4N040"
+				(at 6.35 -1.2699 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SON:Infineon_PG-TDSON-8_6.15x5.15mm"
+				(at 5.588 23.368 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/10/49/infineon-iaucp04p4n040-datasheet-datasheet-en.pdf"
+				(at 1.778 18.034 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "P-MOSFET transistor"
+				(at 2.286 14.478 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "PMOS P-MOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q_PMOS_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 -0.381) (xy 3.683 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_PMOS_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "s"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -563,375 +957,80 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:BSC052N08NS5"
-			(pin_names
-				(offset 0)
-				(hide yes)
+	)
+	(text "PMOS\n"
+		(exclude_from_sim no)
+		(at 172.974 112.776 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "BSC052N08NS5"
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
-				(at 5.08 -1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BSC052N08NS5-DS-v02_00-EN.pdf?fileId=5546d4624ad04ef9014ae38fc94f2b40"
-				(at 5.08 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "95A Id, 80V Vds, OptiMOS N-Channel Power MOSFET, 5.2mOhm Ron, Qg (typ) 32.0nC, PG-TDSON-8"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "OptiMOS Power MOSFET N-MOS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TDSON*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "BSC052N08NS5_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BSC052N08NS5_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(hide yes)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(hide yes)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 5.08)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
 		)
+		(uuid "d00dffd1-7731-4c40-a3f6-741363b55210")
+	)
+	(text "PU Resistor for \nPMOS Gate"
+		(exclude_from_sim no)
+		(at 163.068 104.394 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ec006cd5-2a59-40be-a9a6-dfc168de1967")
 	)
 	(junction
-		(at 139.7 100.33)
+		(at 167.64 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "18c61311-ffc5-4757-8b6f-4c314bea6da9")
+		(uuid "006e92c6-92b2-4f65-803b-26edf54ce3fa")
 	)
 	(junction
-		(at 116.84 118.11)
+		(at 158.75 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2aa5a3fc-07ae-4610-9a99-07a6be56c660")
+	)
+	(junction
+		(at 121.92 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f77d23d-a79d-49e8-8565-192cdaf40e4e")
+	)
+	(junction
+		(at 121.92 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8fd1aad6-68db-49c9-a8cf-b51f2c21f9e5")
 	)
+	(junction
+		(at 139.7 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c88b670a-6201-44f3-a757-ae920790141a")
+	)
 	(wire
 		(pts
-			(xy 139.7 100.33) (xy 148.59 100.33)
+			(xy 121.92 102.87) (xy 121.92 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00e5545c-82d2-4907-b2e8-18a72c84a9a8")
+	)
+	(wire
+		(pts
+			(xy 158.75 106.68) (xy 158.75 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0131fd82-512e-4beb-be10-9045ee50295c")
+	)
+	(wire
+		(pts
+			(xy 139.7 102.87) (xy 142.24 102.87)
 		)
 		(stroke
 			(width 0)
@@ -951,7 +1050,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 105.41) (xy 139.7 100.33)
+			(xy 139.7 105.41) (xy 139.7 102.87)
 		)
 		(stroke
 			(width 0)
@@ -961,17 +1060,17 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 100.33) (xy 133.35 101.6)
+			(xy 158.75 106.68) (xy 167.64 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2ecc4c95-993c-48bc-8b35-efe8547258ef")
+		(uuid "2e70b765-acc4-4b6e-9542-49c14b941621")
 	)
 	(wire
 		(pts
-			(xy 134.62 100.33) (xy 133.35 100.33)
+			(xy 133.35 92.71) (xy 139.7 92.71)
 		)
 		(stroke
 			(width 0)
@@ -981,7 +1080,17 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 113.03) (xy 124.46 113.03)
+			(xy 133.35 92.71) (xy 133.35 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34c330a9-fee8-4f27-ad30-7df6318c10bb")
+	)
+	(wire
+		(pts
+			(xy 118.11 113.03) (xy 121.92 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1001,13 +1110,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 118.11) (xy 124.46 118.11)
+			(xy 139.7 95.25) (xy 139.7 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6920bb52-b92b-458b-9fd5-5b1e3d4e018f")
+		(uuid "785bcafd-b1f8-4b9a-86a2-54a32a4e5918")
 	)
 	(wire
 		(pts
@@ -1021,6 +1130,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 113.03) (xy 158.75 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82e91c1e-ae03-4cd4-9528-0e2fde10e3db")
+	)
+	(wire
+		(pts
 			(xy 152.4 115.57) (xy 160.02 115.57)
 		)
 		(stroke
@@ -1031,7 +1150,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 123.19) (xy 116.84 124.46)
+			(xy 121.92 124.46) (xy 121.92 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1051,7 +1170,37 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 118.11) (xy 116.84 118.11)
+			(xy 139.7 100.33) (xy 139.7 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4d03b9e-6772-46a8-a842-9e293a33b33f")
+	)
+	(wire
+		(pts
+			(xy 121.92 119.38) (xy 121.92 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b51363fc-70d2-4df8-9dd0-a3ddda29fdac")
+	)
+	(wire
+		(pts
+			(xy 121.92 113.03) (xy 124.46 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5ad0007-11d4-4d1a-b97b-9c507c6f80de")
+	)
+	(wire
+		(pts
+			(xy 118.11 118.11) (xy 124.46 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1069,9 +1218,19 @@
 		)
 		(uuid "eb836231-3a88-447c-8d52-ff366676e73e")
 	)
+	(wire
+		(pts
+			(xy 139.7 102.87) (xy 121.92 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4ad192a-e32c-40e7-af54-a9f183aff7b3")
+	)
 	(hierarchical_label "GSE_ON"
 		(shape input)
-		(at 113.03 113.03 180)
+		(at 118.11 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1079,17 +1238,6 @@
 			(justify right)
 		)
 		(uuid "06c10169-da65-4470-a213-faa360e33ff2")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 133.35 101.6 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "45798c58-6ad9-457e-92de-d4370abc60dc")
 	)
 	(hierarchical_label "VBattRaw"
 		(shape input)
@@ -1104,7 +1252,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 116.84 124.46 270)
+		(at 121.92 125.73 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1112,6 +1260,17 @@
 			(justify right)
 		)
 		(uuid "97f325a1-9b6b-422a-8a36-8cb39cbe24c8")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 133.35 93.98 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cb1132c1-a7f6-4a51-bfb7-7c52e9909f5f")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -1137,7 +1296,7 @@
 	)
 	(hierarchical_label "IS_Ejected"
 		(shape input)
-		(at 113.03 118.11 180)
+		(at 118.11 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1148,7 +1307,7 @@
 	)
 	(hierarchical_label "3v3"
 		(shape input)
-		(at 148.59 100.33 0)
+		(at 142.24 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1159,7 +1318,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 137.16 100.33 90)
+		(at 139.7 97.79 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1167,10 +1327,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "10654f08-dbdf-41fb-9a96-ef3c12b1d9f0")
 		(property "Reference" "C50"
-			(at 137.16 93.98 90)
+			(at 142.24 96.266 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1180,7 +1339,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 137.16 96.52 90)
+			(at 142.494 99.568 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1190,7 +1349,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 137.16 100.33 0)
+			(at 139.7 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1201,7 +1360,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 100.33 0)
+			(at 139.7 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1212,7 +1371,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 147.32 100.33 0)
+			(at 139.7 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1247,10 +1406,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "28339ee3-43eb-42f9-8da8-0108b9712ccd")
 		(property "Reference" "U2"
-			(at 151.13 109.1498 0)
+			(at 146.05 120.142 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1260,7 +1418,7 @@
 			)
 		)
 		(property "Value" "74LVC1G32"
-			(at 151.13 111.6898 0)
+			(at 146.05 122.682 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1327,101 +1485,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BSC052N08NS5")
-		(at 165.1 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2ea1a9fe-1ab4-417b-93ac-e22fb421eadc")
-		(property "Reference" "Q26"
-			(at 171.45 114.2999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSC052N08NS5"
-			(at 171.45 116.332 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
-			(at 170.18 117.475 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BSC052N08NS5-DS-v02_00-EN.pdf?fileId=5546d4624ad04ef9014ae38fc94f2b40"
-			(at 170.18 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "95A Id, 80V Vds, OptiMOS N-Channel Power MOSFET, 5.2mOhm Ron, Qg (typ) 32.0nC, PG-TDSON-8"
-			(at 165.1 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "e79f2051-9a6b-42e7-9603-a5f0c736cc08")
-		)
-		(pin "4"
-			(uuid "2dac161f-ce38-4d0d-8b95-37b05db3f0f4")
-		)
-		(pin "1"
-			(uuid "ce521b52-c8f7-40c5-b9d0-589d3cf02602")
-		)
-		(pin "2"
-			(uuid "b20e132c-5c35-4687-ae96-7fbf698eaf70")
-		)
-		(pin "5"
-			(uuid "0b128407-2f86-4338-ac56-d19cc4b4ac6c")
-		)
-		(instances
-			(project "VehiclePDB"
-				(path "/dfc858cb-5f69-4281-acb2-fd40934e1f2d/3745244d-a164-4620-b6cc-73a312481feb"
-					(reference "Q26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
-		(at 116.84 120.65 0)
+		(at 158.75 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1429,10 +1494,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64205773-c46a-4167-b43b-09495887c1a6")
-		(property "Reference" "R45"
-			(at 119.38 119.3799 0)
+		(uuid "31b107f0-64c0-4531-8332-2079c824dbcb")
+		(property "Reference" "R48"
+			(at 161.29 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1443,7 +1507,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 119.38 121.9199 0)
+			(at 161.29 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1454,7 +1518,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 116.84 120.65 0)
+			(at 158.75 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1465,7 +1529,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 120.65 0)
+			(at 158.75 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1476,7 +1540,89 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 116.84 120.65 0)
+			(at 158.75 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c769e05f-4818-443f-8da7-4651d3c89e9b")
+		)
+		(pin "1"
+			(uuid "27135c43-0dfa-4f72-a6e6-2ef303f39ce0")
+		)
+		(instances
+			(project "VehiclePDB"
+				(path "/dfc858cb-5f69-4281-acb2-fd40934e1f2d/3745244d-a164-4620-b6cc-73a312481feb"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 121.92 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64205773-c46a-4167-b43b-09495887c1a6")
+		(property "Reference" "R45"
+			(at 124.46 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 124.46 123.1899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 121.92 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 121.92 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1496,6 +1642,106 @@
 			(project "VehiclePDB"
 				(path "/dfc858cb-5f69-4281-acb2-fd40934e1f2d/3745244d-a164-4620-b6cc-73a312481feb"
 					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_PMOS")
+		(at 165.1 115.57 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f629c7bd-7f4c-4d35-8064-added73d057c")
+		(property "Reference" "Q2"
+			(at 171.45 116.8401 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IAUCP04P4N040"
+			(at 171.45 114.3001 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SON:Infineon_PG-TDSON-8_6.15x5.15mm"
+			(at 170.688 138.938 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/10/49/infineon-iaucp04p4n040-datasheet-datasheet-en.pdf"
+			(at 166.878 133.604 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "P-MOSFET transistor"
+			(at 167.386 130.048 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "ea396cab-6eaf-4bc5-8565-d009769eb96d")
+		)
+		(pin "2"
+			(uuid "6d9db07b-eceb-4d74-b180-7054d26fe8a7")
+		)
+		(pin "8"
+			(uuid "83dcbf9e-e1b4-4d25-8558-17d1969ed3ff")
+		)
+		(pin "3"
+			(uuid "2e29d26b-f42e-4be8-abc8-092c041c107e")
+		)
+		(pin "5"
+			(uuid "95ad399e-dabe-425e-85f6-e9a2346855e8")
+		)
+		(pin "7"
+			(uuid "95361e7f-281f-46ea-8bab-5fe1642042ab")
+		)
+		(pin "1"
+			(uuid "800f9f9a-0552-4617-a9eb-3b3ea7c65449")
+		)
+		(pin "6"
+			(uuid "1259c0b7-33e4-48ec-8e57-b6a2a46f0767")
+		)
+		(instances
+			(project "VehiclePDB"
+				(path "/dfc858cb-5f69-4281-acb2-fd40934e1f2d/3745244d-a164-4620-b6cc-73a312481feb"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
