@@ -22,3 +22,5 @@ fp-info-cache
 
 # Misc.
 *.autosave
+*.history
+*.gitignore
