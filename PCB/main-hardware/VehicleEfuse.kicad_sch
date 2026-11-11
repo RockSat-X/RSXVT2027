@@ -2058,6 +2058,12 @@
 					(unit 1)
 				)
 			)
+			(project "VehiclePowerPCB"
+				(path "/dfc858cb-5f69-4281-acb2-fd40934e1f2d/e4842f39-2572-4a3e-b04f-1e2f70638a25"
+					(reference "R8")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2135,6 +2141,12 @@
 		(instances
 			(project "PCB Designs"
 				(path "/a63101c2-33fd-4fde-b0aa-80ff4ff71b25/b2f3ff71-3e5c-4ed9-a07e-905ce683306c/9c20296c-172a-4fb1-ae2d-54218a222870/e4842f39-2572-4a3e-b04f-1e2f70638a25"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+			(project "VehiclePowerPCB"
+				(path "/dfc858cb-5f69-4281-acb2-fd40934e1f2d/e4842f39-2572-4a3e-b04f-1e2f70638a25"
 					(reference "R12")
 					(unit 1)
 				)
@@ -2255,6 +2267,12 @@
 					(unit 1)
 				)
 			)
+			(project "VehiclePowerPCB"
+				(path "/dfc858cb-5f69-4281-acb2-fd40934e1f2d/e4842f39-2572-4a3e-b04f-1e2f70638a25"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2364,6 +2382,12 @@
 					(unit 1)
 				)
 			)
+			(project "VehiclePowerPCB"
+				(path "/dfc858cb-5f69-4281-acb2-fd40934e1f2d/e4842f39-2572-4a3e-b04f-1e2f70638a25"
+					(reference "U2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2442,6 +2466,12 @@
 		(instances
 			(project "PCB Designs"
 				(path "/a63101c2-33fd-4fde-b0aa-80ff4ff71b25/b2f3ff71-3e5c-4ed9-a07e-905ce683306c/9c20296c-172a-4fb1-ae2d-54218a222870/e4842f39-2572-4a3e-b04f-1e2f70638a25"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+			(project "VehiclePowerPCB"
+				(path "/dfc858cb-5f69-4281-acb2-fd40934e1f2d/e4842f39-2572-4a3e-b04f-1e2f70638a25"
 					(reference "D8")
 					(unit 1)
 				)
@@ -2528,6 +2558,12 @@
 					(unit 1)
 				)
 			)
+			(project "VehiclePowerPCB"
+				(path "/dfc858cb-5f69-4281-acb2-fd40934e1f2d/e4842f39-2572-4a3e-b04f-1e2f70638a25"
+					(reference "C11")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2606,6 +2642,12 @@
 		(instances
 			(project "PCB Designs"
 				(path "/a63101c2-33fd-4fde-b0aa-80ff4ff71b25/b2f3ff71-3e5c-4ed9-a07e-905ce683306c/9c20296c-172a-4fb1-ae2d-54218a222870/e4842f39-2572-4a3e-b04f-1e2f70638a25"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+			(project "VehiclePowerPCB"
+				(path "/dfc858cb-5f69-4281-acb2-fd40934e1f2d/e4842f39-2572-4a3e-b04f-1e2f70638a25"
 					(reference "C10")
 					(unit 1)
 				)
@@ -2692,6 +2734,12 @@
 					(unit 1)
 				)
 			)
+			(project "VehiclePowerPCB"
+				(path "/dfc858cb-5f69-4281-acb2-fd40934e1f2d/e4842f39-2572-4a3e-b04f-1e2f70638a25"
+					(reference "R9")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2769,6 +2817,12 @@
 		(instances
 			(project "PCB Designs"
 				(path "/a63101c2-33fd-4fde-b0aa-80ff4ff71b25/b2f3ff71-3e5c-4ed9-a07e-905ce683306c/9c20296c-172a-4fb1-ae2d-54218a222870/e4842f39-2572-4a3e-b04f-1e2f70638a25"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+			(project "VehiclePowerPCB"
+				(path "/dfc858cb-5f69-4281-acb2-fd40934e1f2d/e4842f39-2572-4a3e-b04f-1e2f70638a25"
 					(reference "C9")
 					(unit 1)
 				)
@@ -2855,6 +2909,12 @@
 					(unit 1)
 				)
 			)
+			(project "VehiclePowerPCB"
+				(path "/dfc858cb-5f69-4281-acb2-fd40934e1f2d/e4842f39-2572-4a3e-b04f-1e2f70638a25"
+					(reference "R7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2932,6 +2992,12 @@
 		(instances
 			(project "PCB Designs"
 				(path "/a63101c2-33fd-4fde-b0aa-80ff4ff71b25/b2f3ff71-3e5c-4ed9-a07e-905ce683306c/9c20296c-172a-4fb1-ae2d-54218a222870/e4842f39-2572-4a3e-b04f-1e2f70638a25"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+			(project "VehiclePowerPCB"
+				(path "/dfc858cb-5f69-4281-acb2-fd40934e1f2d/e4842f39-2572-4a3e-b04f-1e2f70638a25"
 					(reference "R47")
 					(unit 1)
 				)
@@ -3018,6 +3084,12 @@
 					(unit 1)
 				)
 			)
+			(project "VehiclePowerPCB"
+				(path "/dfc858cb-5f69-4281-acb2-fd40934e1f2d/e4842f39-2572-4a3e-b04f-1e2f70638a25"
+					(reference "R10")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3096,6 +3168,12 @@
 		(instances
 			(project "PCB Designs"
 				(path "/a63101c2-33fd-4fde-b0aa-80ff4ff71b25/b2f3ff71-3e5c-4ed9-a07e-905ce683306c/9c20296c-172a-4fb1-ae2d-54218a222870/e4842f39-2572-4a3e-b04f-1e2f70638a25"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+			(project "VehiclePowerPCB"
+				(path "/dfc858cb-5f69-4281-acb2-fd40934e1f2d/e4842f39-2572-4a3e-b04f-1e2f70638a25"
 					(reference "D1")
 					(unit 1)
 				)
@@ -3181,6 +3259,12 @@
 					(unit 1)
 				)
 			)
+			(project "VehiclePowerPCB"
+				(path "/dfc858cb-5f69-4281-acb2-fd40934e1f2d/e4842f39-2572-4a3e-b04f-1e2f70638a25"
+					(reference "C6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3260,6 +3344,12 @@
 		(instances
 			(project "PCB Designs"
 				(path "/a63101c2-33fd-4fde-b0aa-80ff4ff71b25/b2f3ff71-3e5c-4ed9-a07e-905ce683306c/9c20296c-172a-4fb1-ae2d-54218a222870/e4842f39-2572-4a3e-b04f-1e2f70638a25"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+			(project "VehiclePowerPCB"
+				(path "/dfc858cb-5f69-4281-acb2-fd40934e1f2d/e4842f39-2572-4a3e-b04f-1e2f70638a25"
 					(reference "C8")
 					(unit 1)
 				)
